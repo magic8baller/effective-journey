@@ -1,3 +1,3 @@
-import {start} from './src/index.js'
+let start = require('./src/server')
 
 start()
