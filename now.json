@@ -1,5 +1,8 @@
 {
 	"name": "effective-journey",
 	"version": "v1.0.0",
+	"env": {
+		"MONGODB_URI": "mongodb+srv://stable_genius:stablegenius@cluster0-hij6q.mongodb.net/QUOTEAPI?retryWrites=true&w=majority"
+	},
 	"builds": [{"src": "index.js", "use": "@now/node-server"}]
 }

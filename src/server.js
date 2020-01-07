@@ -21,6 +21,10 @@ app.use(express.static(path.join(__dirname, 'public')))
 
 app.use('/api/quotes', quotesRouter)
 
+app.get('/', (req, res, next) => {
+	res.send('HOW VERY CA$H MONEY OF YOU')
+})
+
 const start = () => app.listen(PORT, (req, res, next) => {
   console.log('now serving on port ' + PORT)
 })
