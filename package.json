@@ -1,0 +1,32 @@
+{
+  "name": "effective-journey",
+  "version": "1.0.0",
+  "description": "motivational quote API",
+  "main": "start.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node start.js",
+    "dev": "nodemon start.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/magic8baller/effective-journey.git"
+  },
+  "keywords": [],
+  "author": "Leslie T",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/magic8baller/effective-journey/issues"
+  },
+  "homepage": "https://github.com/magic8baller/effective-journey#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mongodb": "^3.4.1"
+  },
+  "devDependencies": {
+    "morgan": "^1.9.1"
+  }
+}

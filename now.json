@@ -1,0 +1,7 @@
+{
+	"name": "motivational-quote-api",
+	"version": "v1.0.0",
+	"env": {
+		"MONGODB_URI": "@my-mongodb-uri"
+	}
+}
