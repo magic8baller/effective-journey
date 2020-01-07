@@ -1,6 +1,6 @@
 {
 	"name": "effective-journey",
-	"version": 1,
+	"version": 2,
 	"env": {
 		"MONGODB_URI": "mongodb+srv://stable_genius:stablegenius@cluster0-hij6q.mongodb.net/QUOTEAPI?retryWrites=true&w=majority"
 	},
